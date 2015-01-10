@@ -1,0 +1,329 @@
+#wrapper{
+	width: 100%;
+	background-color: yellow;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper-header{
+	background-color: #82C60F;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper-img{
+	display: block;
+	margin: 0 auto;
+}
+
+#wrapper-main{
+	width: 85%;
+	background-color: white;   
+	border: 4px solid #999; 
+	padding: 1px;
+	margin: 10px auto 10px auto;
+}
+
+.inside-border{ 
+	background-color: white; 
+	margin-top: 4px;
+	margin-left: 4px; 
+	margin-right: 4px; 
+	border: 2px solid #999999; 
+	padding: 0px;
+}
+
+.product-readme h3{
+	color: #F90607;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+.product-title{
+	text-align: center;
+}
+
+.retail-price {
+	text-align: center;
+}
+
+#retail-price-was {
+	color: #999;
+	text-decoration: line-through;
+	min-height: 13px;
+}
+
+#retail-price-save {				
+	min-height: 0px;
+	color: #C1240B;
+	
+}
+
+.product-table table{
+	color: black;
+	font-size: 1.375em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-table tr{
+	height: 40px;
+}
+
+#product-table-condition{
+	width: 545px;
+	background-color: #ddd;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: solid 1px #ccc;
+	padding-left: 40px;
+}
+
+#condition-title{
+	color: #388AC9;
+	font-size: 2em;
+}
+
+#condition-upc{
+	color: #FF0000;
+	font-size: 2em;
+}
+
+#condition-box{
+	color: #FF0000;
+}
+
+#product-table-desc{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.table-left{
+	
+	text-align: right;
+	padding-right: 10px;
+	text-transform: capitalize;
+}
+
+.table-right{
+
+	text-align: left;
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+
+#color-L1{
+	background-color: #FFCCCC;
+}
+
+#color-L2{
+	background-color: #FFCC99 ;
+}
+
+#color-L3{
+	background-color: #FFCC66;
+}
+
+#color-L4{
+	background-color: #FF9966;
+}
+
+#color-L5{
+	background-color: #FF3366;
+}
+
+#color-L6{
+	background-color: #FF0033;
+}
+
+#color-L7{
+	background-color: #CC0000;
+}
+
+#color-R1{
+	background-color: #99FFFF;
+}
+
+
+#color-R2{
+	background-color: #99FFCC ;
+}
+
+#color-R3{
+	background-color: #66FF99;
+}
+
+#color-R4{
+	background-color: #66FF66;
+}
+
+#color-R5{
+	background-color: #33FF33;
+}
+
+#color-R6{
+	background-color: #33FF00;
+}
+
+#color-R7{
+	background-color: #339900;
+}
+
+#digital-download {
+	text-align: center;
+}
+
+.digital-download-img{
+	display: block;
+	margin: 0 auto;
+	width: 35%;
+}
+
+.product-terms{
+	
+}
+
+.term-titles{
+	text-align: left; 
+	padding-left:1px; 
+	height: 20px;
+	margin-bottom: 15px;
+}
+
+.term-titles p{
+	font-size:18px; 
+	font-weight:bold; 
+	color: white; 
+	padding: 8px 0 3px 20px;
+}
+
+#termID-payment{ 
+	background-color: #A90329;
+}
+
+#termID-shipping{ 
+	background-color: #4f85bb;
+}
+#termID-return{
+	background-color: #f2825b;
+}
+
+#termID-support{ 
+	background-color: #012241;
+}
+
+.term-table-description{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.term-table-description table tr{
+	background-color: white;
+	vertical-align: top;
+}
+
+.open-software {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+#shipping-cost {
+	font-weight: bold;
+	color: #0000FF;
+}
+
+#wrapper-footer{
+	height: 80px;  
+	background-color: #82C60F;
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.product-overview-padding-left{
+	padding-left: 50px;
+}
+
+.product-table-overview{								
+	background-color: white;
+	vertical-align: top;
+	margin-right: 10px;
+	
+}
+
+.product-table-overview-left{
+	width: 25%;							
+	background-color: white;														
+	vertical-align: top;
+}
+
+.product-table-overview-right{	
+	width: 75%;						
+	background-color: white;
+	vertical-align: top;
+}
+
+
+#features-img li{
+	display: block;																							   				
+}    
+	
+#features-img li img{
+	padding-top: 10px;		
+	padding-left: 50px;	
+	padding-bottom: 10px;
+	width: 200px;		
+}
+
+#features-list{														
+	font-weight: bold; 
+	font-size:1.1em;
+	padding-top: 100px;		
+	padding-left: 10%;
+	line-height: 250%;
+	text-transform: capitalize;
+	list-style-type: none;															
+}	
+
+#features-list li{														
+	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png") ;
+}							
+
+#hightlights li{
+	display: block;												
+	padding-top: 10px;	
+	line-height: 200%;	
+	padding-right: 10px;							
+} 
+
+.content-left{
+	width: 10%;	
+	float: left;
+}   
+		
+.content-left img {
+	display: block;
+	margin: 0 auto;
+	width: 80px;															    						    
+}
+
+.content-right{
+	width: 88%;										
+	float: right;
+}
+
+.title{								
+	display: block;	
+	line-height: 200%;							
+	font-weight: bold;
+	text-transform: uppercase; 	
+	text-decoration: underline;
+					
+}
