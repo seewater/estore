@@ -319,9 +319,26 @@
 	list-style-type: none;															
 }	
 
-#features-list li{														
+#features-listA li{														
 	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png") ;
-}							
+}
+
+#features-listB li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-purple-2013.png"  );
+}		
+
+#features-listC li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-blue-2013.png"  );
+}	
+
+#features-list li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-orange-2013.png"  );
+}				
+
+#features-listD li{														
+	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png"  ) ;
+}		
+							
 
 #hightlights li{
 	display: block;												
