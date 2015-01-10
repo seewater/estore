@@ -375,3 +375,14 @@
 	text-decoration: underline;
 					
 }
+
+.product-awards{
+	display: block;	
+	padding-left: 500px;
+	margin: 0 auto;
+}
+
+.product-awards img{
+	padding-right: 10px;
+	
+							}
