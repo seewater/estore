@@ -377,9 +377,8 @@
 }
 
 .product-awards{
-	display: block;	
-	padding-left: 500px;
-	margin: 0 auto;
+	display: blockblock;	
+	float: left;
 }
 
 .product-awards img{
