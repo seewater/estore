@@ -377,7 +377,7 @@
 }
 
 .product-awards{
-	display: blockblock;	
+	display: inline-block;	
 	float: left;
 }
 
