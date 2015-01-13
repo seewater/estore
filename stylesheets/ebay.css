@@ -42,17 +42,25 @@
 	padding: 0px;
 }
 
-
-#product-awards{
-	display: block;	
-	width: 300px;
-	padding-left: 40px;
+#product-awards-wrapper{
+	width: 450px;
 	margin: 0 auto;
 }
 
+#product-awards{
+	display: inline-block;
+	width: 100%;
+}
+
+#product-awards p{
+	display: inline-block;	
+	padding-left: 20px;	
+	padding-right: 20px;
+	margin: 0 auto;		
+}
+
 #product-awards img{	
-	width: 50px;
-	padding-right: 30px;	
+	max-width: 100%
 }
 	
 .product-readme h3{
