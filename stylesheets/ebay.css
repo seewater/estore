@@ -60,7 +60,23 @@
 }
 
 #product-awards img{	
-	max-width: 100%
+	max-width: 100%;
+}
+
+#product-awards-wrapper-option{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#product-awards-option{
+	width: 100%;	
+}
+
+
+#product-awards-option img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
 }
 	
 .product-readme h3{
