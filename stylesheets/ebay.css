@@ -175,60 +175,60 @@
 }
 
 #color-L1{
-	background-color: #FFCCCC;
+	background-color: #8CFAD5;
 }
 
 #color-L2{
-	background-color: #FFCC99 ;
+	background-color: #34DDF7 ;
 }
 
 #color-L3{
-	background-color: #FFCC66;
+	background-color: #65A2F7;
 }
 
 #color-L4{
-	background-color: #FF9966;
+	background-color: #B492F7;
 }
 
 #color-L5{
-	background-color: #FF3366;
+	background-color: #FC77EB;
 }
 
 #color-L6{
-	background-color: #FF0033;
+	background-color: #F7BA74;
 }
 
 #color-L7{
-	background-color: #CC0000;
+	background-color: #F76D6D;
 }
 
 #color-R1{
-	background-color: #99FFFF;
+	background-color: #8CFAD5;
 }
 
 
 #color-R2{
-	background-color: #99FFCC ;
+	background-color: #34DDF7;
 }
 
 #color-R3{
-	background-color: #66FF99;
+	background-color: #65A2F7;
 }
 
 #color-R4{
-	background-color: #66FF66;
+	background-color: #B492F7;
 }
 
 #color-R5{
-	background-color: #33FF33;
+	background-color: #FC77EB;
 }
 
 #color-R6{
-	background-color: #33FF00;
+	background-color: #F7BA74;
 }
 
 #color-R7{
-	background-color: #339900;
+	background-color: #F76D6D;
 }
 
 #digital-download {
@@ -241,7 +241,11 @@
 	width: 35%;
 }
 
-
+#not-shipping-cd{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
 
 #downloadable-policy{
 	padding-left: 40px;
