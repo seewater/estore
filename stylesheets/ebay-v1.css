@@ -1,0 +1,469 @@
+#wrapper{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	background: #f8ffe8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b7df2d 0%, #e3f5ab 14%, #f8ffe8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7df2d), color-stop(14%,#e3f5ab), color-stop(100%,#f8ffe8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 14%,#b7df2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 14%,#b7df2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 14%,#b7df2d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 14%,#b7df2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+
+}
+
+#wrapper-header{
+	background-color: #82C60F;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper-img{
+	display: block;
+	margin: 0 auto;
+}
+
+#wrapper-main{
+	width: 85%;
+	background-color: white;   
+	border: 4px solid #999; 
+	padding: 1px;
+	margin: 10px auto 10px auto;
+}
+
+.inside-border{ 
+	background-color: white; 
+	margin-top: 4px;
+	margin-left: 4px; 
+	margin-right: 4px; 
+	border: 2px solid #999999; 
+	padding: 0px;
+}
+
+#awards-img-wrapper-mutiple{
+	width: 450px;
+	margin: 0 auto;
+}
+
+#awards-img-wrapper-small-many{
+	display: inline-block;
+	width: 100%;
+}
+
+#awards-img-wrapper-small-many p{
+	display: inline-block;	
+	padding-left: 20px;	
+	padding-right: 20px;
+	margin: 0 auto;		
+}
+
+#awards-img-wrapper-small-many img{	
+	max-width: 450px;
+	width: 100%;
+}
+
+
+#awards-img-wrapper-single{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#awards-img-wrapper-wide-one{
+	width: 100%;	
+	margin: 0 auto;
+}
+
+#awards-img-wrapper-wide-one img{
+	display: block;	
+	max-width: 100%;
+	margin: 0 auto;
+}
+	
+.product-readme h3{
+	color: #32425B;
+	text-align: center;
+	font-size: 1.9em;
+	text-transform: capitalize;
+}
+
+.product-title{
+	text-align: center;
+}
+
+.product-title span{
+	color: blue;
+}
+
+.retail-price {
+	text-align: center;
+}
+
+#retail-price-was {
+	color: #999;
+	text-decoration: line-through;
+	min-height: 13px;
+}
+
+#retail-price-save {				
+	min-height: 0px;
+	color: #C1240B;
+	
+}
+
+.product-table table{
+	color: black;
+	font-size: 1.375em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-table tr{
+	height: 40px;
+}
+
+#product-table-condition{
+	width: 545px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: solid 1px #ccc;
+	padding-left: 40px;
+	
+	background: #f1da36; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1da36 0%,#fefcea 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
+}
+
+#condition-title{
+	color: #388AC9;
+	font-size: 2em;
+}
+
+#condition-upc{
+	color: #FF0000;
+	font-size: 2em;
+}
+
+#condition-box{
+	color: #FF0000;
+}
+
+#product-table-desc{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.table-left{
+	
+	text-align: right;
+	padding-right: 10px;
+	text-transform: capitalize;
+}
+
+.table-right{
+
+	text-align: left;
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+
+#color-L1{
+	background-color: #8CFAD5;
+}
+
+#color-L2{
+	background-color: #34DDF7 ;
+}
+
+#color-L3{
+	background-color: #65A2F7;
+}
+
+#color-L4{
+	background-color: #B492F7;
+}
+
+#color-L5{
+	background-color: #FC77EB;
+}
+
+#color-L6{
+	background-color: #F7BA74;
+}
+
+#color-L7{
+	background-color: #F76D6D;
+}
+
+#color-R1{
+	background-color: #8CFAD5;
+}
+
+
+#color-R2{
+	background-color: #34DDF7;
+}
+
+#color-R3{
+	background-color: #65A2F7;
+}
+
+#color-R4{
+	background-color: #B492F7;
+}
+
+#color-R5{
+	background-color: #FC77EB;
+}
+
+#color-R6{
+	background-color: #F7BA74;
+}
+
+#color-R7{
+	background-color: #F76D6D;
+}
+
+#digital-download {
+	text-align: center;
+}
+
+.digital-download-img{
+	display: block;
+	margin: 0 auto;
+	width: 35%;
+}
+
+#not-shipping-cd{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
+#downloadable-policy{
+	padding-left: 40px;
+	padding-right: 40px;
+
+	background: #b7df2d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b7df2d 0%, #e3f5ab 33%, #f8ffe8 53%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7df2d), color-stop(33%,#e3f5ab), color-stop(53%,#f8ffe8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7df2d', endColorstr='#f8ffe8',GradientType=0 ); /* IE6-9 */
+
+}
+
+#download-policy-title{
+	margin: 0;
+	text-transform: capitalize;
+	
+}
+
+.download-policy-faq{
+	color: #197AB3;
+}
+
+.download-policy-list{
+	text-transform: capitalize;
+}
+
+
+.product-terms{
+	
+}
+
+.term-titles{
+	text-align: left; 
+	padding-left:1px; 
+	height: 20px;
+	margin-bottom: 15px;
+}
+
+.term-titles p{
+	font-size:18px; 
+	font-weight:bold; 
+	color: white; 
+	padding: 8px 0 3px 20px;
+}
+
+#termID-payment{ 
+	background-color: #A90329;
+}
+
+#termID-shipping{ 
+	background-color: #4f85bb;
+}
+#termID-return{
+	background-color: #f2825b;
+}
+
+#termID-support{ 
+	background-color: #012241;
+}
+
+.term-table-description{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.term-table-description table tr{
+	background-color: white;
+	vertical-align: top;
+}
+
+.open-software {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+#shipping-cost {
+	font-weight: bold;
+	color: #0000FF;
+}
+
+#wrapper-footer{
+	height: 80px;  
+	background-color: #82C60F;
+	margin: 0;
+	padding: 0;
+}
+
+
+.product-overview-padding-left{
+	padding-left: 50px;
+}
+
+#product-overview-shortDescrDiv{
+	font-size: 1.2em;
+	font-size: 1.05em;
+}
+
+.product-table-overview{								
+	background-color: white;
+	vertical-align: top;
+	margin-right: 10px;
+	
+}
+
+.product-table-overview-left{
+	width: 25%;							
+	background-color: white;														
+	vertical-align: top;
+}
+
+.product-table-overview-right{	
+	width: 75%;						
+	background-color: white;
+	vertical-align: top;
+}
+
+
+#features-img li{
+	display: block;																							   				
+}    
+	
+#features-img li img{
+	padding-top: 10px;		
+	padding-left: 50px;	
+	padding-bottom: 10px;
+	width: 200px;		
+}
+
+#features-list{														
+	font-weight: bold; 
+	font-size:1.1em;
+	padding-top: 100px;		
+	padding-left: 10%;
+	line-height: 250%;
+	text-transform: capitalize;
+	list-style-type: none;															
+}	
+
+#features-listA li{														
+	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png") ;
+}
+
+#features-listB li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-purple-2013.png"  );
+}		
+
+#features-listC li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-blue-2013.png"  );
+}	
+
+#features-list li{														
+	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-orange-2013.png"  );
+}				
+
+#features-listD li{														
+	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png"  ) ;
+}		
+							
+
+#hightlights li{
+	display: block;												
+	padding-top: 10px;	
+	line-height: 200%;	
+	padding-right: 10px;							
+} 
+
+.content-left{
+	width: 10%;	
+	float: left;
+}   
+		
+.content-left img {
+	display: block;
+	margin: 0 auto;
+	width: 80px;															    						    
+}
+
+.content-right{
+	width: 88%;										
+	float: right;
+}
+
+.title{								
+	display: block;	
+	line-height: 200%;							
+	font-weight: bold;
+	text-transform: uppercase; 	
+	text-decoration: underline;
+					
+}
+
+						
+.features-images{
+	display: block;	
+	padding-left: 10%;
+	margin: 0 auto;
+}
+
+.features-images img{
+	width: 600px;								
+	padding-bottom: 40px;															
+}
+
+.specialNew{
+	color: red;
+}
+
+.clear{
+	clear: both;
+}
+
+.seperate-line{
+	margin: 0;
+}
