@@ -39,7 +39,7 @@
 	margin-left: 4px; 
 	margin-right: 4px; 
 	border: 2px solid #999999; 
-	padding: 0px;
+	padding: 5px;
 }
 
 #awards-img-wrapper-mutiple{
@@ -233,14 +233,32 @@
 	background-color: #F76D6D;
 }
 
-#digital-download {
+.digital-download {
 	text-align: center;
+	margin: 0 auto;
+	width: 525px;
+	border:1px solid white;
+	padding-left:10px;
+	padding-right:10px;
+	background: #f1da36; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1da36 0%,#fefcea 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
 }
 
 .digital-download-img{
 	display: block;
 	margin: 0 auto;
-	width: 35%;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	overflow: auto;
 }
 
 #not-shipping-cd{
@@ -341,13 +359,14 @@
 }
 
 
-.product-overview-padding-left{
+.padding-left-class{
 	padding-left: 50px;
 }
 
 #product-overview-shortDescrDiv{
 	font-size: 1.2em;
 	font-size: 1.05em;
+		padding-right: 30px;
 }
 
 .product-table-overview{								
@@ -411,49 +430,54 @@
 	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png"  ) ;
 }		
 							
+#hightlights-table{	
+	border-collapse: collapse;	
+	
+}
 
-#hightlights li{
-	display: block;												
-	padding-top: 10px;	
-	line-height: 200%;	
-	padding-right: 10px;							
+.hightlights-left{
+	width: 100px;
+	vertical-align: top;
+	padding-bottom: 10px;	
 } 
 
-.content-left{
-	width: 10%;	
-	float: left;
-}   
+.hightlights-right{
+	width: 90%;	
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 20px;	
+	padding-bottom: 10px;	
+}     
 		
-.content-left img {
+.hightlights-left img {
 	display: block;
 	margin: 0 auto;
-	width: 80px;															    						    
+	max-width: 80px;	
+															    						    
 }
 
-.content-right{
-	width: 88%;										
-	float: right;
-}
-
-.title{								
+.hightlights-title {								
 	display: block;	
 	line-height: 200%;							
 	font-weight: bold;
 	text-transform: uppercase; 	
 	text-decoration: underline;
+	background-color: white;
 					
 }
 
 						
-.features-images{
-	display: block;	
-	padding-left: 10%;
+#features-images-wrapper{
+	width: 80%;
 	margin: 0 auto;
 }
 
-.features-images img{
-	width: 600px;								
-	padding-bottom: 40px;															
+#features-images-wrapper img{
+	max-width: 700px;	
+	width: 100%;	
+	display: block;	
+	margin: 0 auto;						
+	padding-bottom: 40px;																
 }
 
 .specialNew{
