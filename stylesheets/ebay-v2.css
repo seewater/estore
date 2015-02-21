@@ -268,32 +268,22 @@
 	font-size: 12px;
 }
 
-#downloadable-policy{
+#dl-policy{
 	padding-left: 40px;
 	padding-right: 40px;
-
-	background: #b7df2d; /* Old browsers */
-	background: -moz-linear-gradient(top,  #b7df2d 0%, #e3f5ab 33%, #f8ffe8 53%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7df2d), color-stop(33%,#e3f5ab), color-stop(53%,#f8ffe8)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* IE10+ */
-	background: linear-gradient(to bottom,  #b7df2d 0%,#e3f5ab 33%,#f8ffe8 53%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7df2d', endColorstr='#f8ffe8',GradientType=0 ); /* IE6-9 */
-
 }
 
-#download-policy-title{
+#dl-policy-title{
 	margin: 0;
 	text-transform: capitalize;
 	
 }
 
-.download-policy-faq{
+.dl-policy-faq{
 	color: #197AB3;
 }
 
-.download-policy-list{
+.dl-policy-list{
 	text-transform: capitalize;
 }
 
