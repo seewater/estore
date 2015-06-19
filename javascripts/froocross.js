@@ -7,7 +7,7 @@ function buildFrooGallery() {
 	xCount=0; 
 	newImage = 'http://xglobal.froo.com/img/gallery-wrap-'+designid+'.gif';
 	document.getElementById('froo-gallery-wrap').style.background = 'url('+newImage+') no-repeat';
-	document.getElementById('froo-gallery-wrap').style.height = "300px";
+	document.getElementById('froo-gallery-wrap').style.height = "280px";
 	document.getElementById('froo-gallery-wrap').style.width = "600px";
 	document.getElementById('froo-gallery-wrap').style.marginTop = "10px";
 	var ScrollImages=new Array(); 
