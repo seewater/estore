@@ -47,7 +47,6 @@ function buildFrooGallery() {
 	xHTML+='<td id="froo-gallery-price" align="right" width="115px"></td>';
 	xHTML+='</table></td></tr></table>';
 	xHTML+='<div style="clear:both;"></div>';
-	xHTML+='<div class="froo-credit" style="background:#fff;"><a class="froo-credit" href="http://www.froo.com/xsell/?ref=cross" target="_blank"><img src="http://xglobal.froo.com/img/froocredit.jpg" border="0" /></a></div>';
 	xHTML+='<div style="clear:both;height:60px;">&nbsp;</div></div>';
 	
 	document.getElementById('froo-gallery-wrap').innerHTML=xHTML;
