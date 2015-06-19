@@ -47,7 +47,7 @@ function buildFrooGallery() {
 	xHTML+='<td id="froo-gallery-price" align="right" width="115px"></td>';
 	xHTML+='</table></td></tr></table>';
 	xHTML+='<div style="clear:both;"></div>';
-	xHTML+='<div style="clear:both;height:60px;">&nbsp;</div></div>';
+	xHTML+='<div style="clear:both;height:10px;">&nbsp;</div></div>';
 	
 	document.getElementById('froo-gallery-wrap').innerHTML=xHTML;
 	scroller1=document.getElementById("froo-slide1");
