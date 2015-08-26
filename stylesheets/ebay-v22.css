@@ -146,8 +146,9 @@
 }
 
 #condition-title{
-	color: #388AC9;
+	color: #848484;
 	font-size: 2em;
+	text-shadow: 3px 3px 3px #D8D8D8;
 }
 
 #condition-upc{
@@ -252,6 +253,8 @@
 	background: -ms-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+	
+	text-shadow: 3px 3px 3px #CDE8FD;
 }
 
 #not-shipping-cd{
