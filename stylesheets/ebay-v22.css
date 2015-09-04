@@ -525,3 +525,13 @@
 #extpanel td a { display:block; }
 #extpanel td a img { visibility:hidden; }
 #extpanel td a:hover img { visibility:visible; }
+
+.specialNew2{
+	color: #FFF;
+	font-size: 12px;
+	margin-left: 5px;
+	padding: 0px 5px;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-weight: 100;
+	background-color: #900;
+}
