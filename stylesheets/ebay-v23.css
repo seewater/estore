@@ -195,7 +195,6 @@ MEDIA QUERIES
 
 
 #gallery_box {
-	background: #FFF; 
 	padding: .5rem;
 	font-size: 0;
 	display: -ms-flexbox;
@@ -217,7 +216,6 @@ MEDIA QUERIES
 .gallery_img img {
 	width: 100%;
 	height: auto;
-	border: 1px solid #fff;
 }
 
 
@@ -379,7 +377,6 @@ MEDIA QUERIES
 #gallery_feature_box a{
 	display: flex;
 	align-items: center;
-	background:#FFF;
 	width: 60px;
 	height: 60px;
 	border:3px solid #CCC;
@@ -406,13 +403,11 @@ MEDIA QUERIES
 }
 
 #table-lists {
-	width: 100%;
-	background-color: #FFF;		
+	width: 100%;	
 }
 
 #table-lists-left{
 	max-width: 210px;													
-	background: #FFF; 
 	padding: 1px;
 	font-size: 0;
 	display: -ms-flexbox;
@@ -450,26 +445,29 @@ MEDIA QUERIES
 	list-style-type: none;															
 }	
 
-#features-listA li{														
-	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png") ;
+#features-list li{														
+	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark_20x20_zpserqgf2j9.png") ;
 }
 
 #features-listB li{														
-	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-purple-2013.png"  );
+	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-orange-2013_zpsmozee8rq.png"  );
 }		
 
 #features-listC li{														
-	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-blue-2013.png"  );
+	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-blue-2013_zps9kfr08z9.png"  );
 }	
 
-#features-list li{														
-	list-style-image: url( "http://www.webroot.com/shared/images/checkmark-orange-2013.png"  );
+#features-listD li{														
+	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark_pink_20x20_zpsnyfcwwo2.png"  );
 }				
 
-#features-listD li{														
-	list-style-image: url("http://static2.esetstatic.com/fileadmin/Images/INT/Icons/Icon_09x09-Bullets/OK-05_03.png"  ) ;
+#features-listE li{														
+	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/Blue_check_20x20_zpsebi0dbym.png"  ) ;
 }		
 
+#features-listF li{														
+	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-purple-2013_zpsplxq7qsf.png"  ) ;
+}		
 
 #hightlights-table{	
 	border-collapse: collapse;
