@@ -409,7 +409,6 @@ MEDIA QUERIES
 #table-lists-left{
 	max-width: 210px;													
 	padding: 1px;
-	font-size: 0;
 	display: -ms-flexbox;
 	-ms-flex-wrap: wrap;
 	-ms-flex-direction: column;
