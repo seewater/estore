@@ -595,7 +595,7 @@ MEDIA QUERIES Tabbed
 
 .tabbed > input:checked + section > h1 > label{	
 	color         : #fff;
-	background    : ##DBFF33;
+	background    : #DBFF33;
 }
 
 .tabbed > input:not(:checked) + section > div{
