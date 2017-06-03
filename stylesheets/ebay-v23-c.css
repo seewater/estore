@@ -2,11 +2,11 @@
 	padding: 0px;
 	width: 960px;
 	margin: 0px auto;
-	background: #eb9783; /* Old browsers */
-	background: -moz-linear-gradient(top, #eb9783 0%, #eb9786 0%, #f9dede 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #eb9783 0%,#eb9786 0%,#f9dede 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #eb9783 0%,#eb9786 0%,#f9dede 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb9783', endColorstr='#f9dede',GradientType=0 ); /* IE6-9 *
+	background: #f9dede; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9dede 0%, #eb9786 100%, #eb9783 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f9dede 0%,#eb9786 100%,#eb9783 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f9dede 0%,#eb9786 100%,#eb9783 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dede', endColorstr='#eb9783',GradientType=0 ); /* IE6-9 */
 
 }
 
@@ -592,7 +592,7 @@ MEDIA QUERIES Tabbed
 
 .tabbed > input:checked + section > h1 > label{	
 	color         : #fff;
-	background    : #DBFF33;
+	background    : #4f85bb;
 }
 
 .tabbed > input:not(:checked) + section > div{
