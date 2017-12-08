@@ -1,3 +1,5 @@
+ /* 2.4.1 ele */
+
 #pagewrap {
 	padding: 0px;
 	width: 960px;
@@ -57,143 +59,6 @@
 	padding: 5px 15px;
 }
 
-/************************************************************************************
-MEDIA QUERIES
-*************************************************************************************/
-
-/* for 960px or less */
-
-@media screen and (max-width: 980px) {
-	#pagewrap {
-		width: 96%;
-	}
-	
-	#main_content_header {
-		width: 95%;
-		margin: 0 auto;
-		padding: 5px 15px;
-	}
-	
-	#middle {
-		width: 95%;
-		margin: 0 auto;
-		padding: 5px 15px;
-	}
-	
-	#sidebar {
-		width: 95%;
-		margin: 0 auto;
-		padding: 5px 15px;
-	}					
-}
-
-
-/* for 700px or less */
-
-@media screen and (max-width: 600px) {
-	#main_content_header {
-		width: auto;
-		margin: 0 auto;
-		padding: 5px 5px;
-	}
-	
-	#middle {
-		width: auto;
-		margin: 0 auto;
-		padding: 5px 5px;
-	}
-	
-	#sidebar {
-		width: auto;
-		margin: 0 auto;
-		padding: 5px 5px;
-	}
-	
-	#product-table {
-		width: auto;
-		margin: 0 auto;
-		padding: 5px 1px;
-	}
-	
-	.hightlights-left img {
-		display: block;
-		margin: 0 auto;
-		width: 20px;															    						    
-	}
-	
-	label {
-		font-size: 10;
-	}
-
-	label:before {
-		margin: 0;
-		font-size: 12px;
-	}
-}
-
-
-/* for 480px or less */
-
-@media screen and (max-width: 480px) {
-	#main_content_header {
-		width: auto;
-		margin: 0 auto;
-		padding: 4px 4px;
-	}
-	
-	#middle {
-		width: auto;
-		margin: 0 auto;
-		padding: 4px 4px;
-	}	
-	
-	#sidebar {
-		width: auto;
-		margin: 0 auto;
-		padding: 4px 4px;
-	}
-						
-	h1 {
-		font-size: 1.5em;
-	}
-
-	#features-list li{														
-		font-size: 0.75em;		
-		line-height: 110%;						
-	}	
-	
-	.hightlights-left img {
-		display: block;
-		margin: 0 auto;
-		width: 15px;															    						    
-	}	
-
-	label {
-		font-size: 8;
-	}
-
-	label:before {
-		margin: 0;
-		font-size: 8px;
-	}					
-}
-
-/* for 400px or less */
-@media screen and (max-width: 400px) {
-	#gallery_box { 
-		padding: 0; 
-	} 
-	
-	.gallery_img { 
-		margin: 0; 
-	}
-	
-	label {
-		padding: 7px;
-	}
-}
-
-
 #gallery_box {
 	padding: .5rem;
 	font-size: 0;
@@ -220,11 +85,11 @@ MEDIA QUERIES
 
 
 .product-readme h3{
-	color: #32425B;
+	color: #3C8D0D;
 	text-align: center;
 	font-size: 1.6em;
 	text-transform: capitalize;
-	text-shadow: 3px 3px 3px #CDE8FD;
+	text-shadow: 1px 1px 1px #145A32;
 }				
 
 #awards_img_wide{
@@ -445,28 +310,28 @@ MEDIA QUERIES
 }	
 
 #features-list li{														
-	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark_20x20_zpserqgf2j9.png") ;
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/checkmark_20x20.png") ;
 }
 
 #features-listB li{														
-	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-orange-2013_zpsmozee8rq.png"  );
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/checkmark-orange-2013.png"  );
 }		
 
 #features-listC li{														
-	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-blue-2013_zps9kfr08z9.png"  );
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/checkmark-blue-2013.png"  );
 }	
 
 #features-listD li{														
-	list-style-image: url( "http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark_pink_20x20_zpsnyfcwwo2.png"  );
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/checkmark_pink_20x20.png"  );
 }				
 
 #features-listE li{														
-	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/Blue_check_20x20_zpsebi0dbym.png"  ) ;
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/Blue_check_20x20.png"  ) ;
 }		
 
 #features-listF li{														
-	list-style-image: url("http://i1061.photobucket.com/albums/t470/hoisharewin/Bullet-Icon/check-mark/checkmark-purple-2013_zpsplxq7qsf.png"  ) ;
-}		
+	list-style-image: url("https://qbrz4r-user.freehosting.host/c678eb52-9ea5-48be-abf7-df55884ca524/cssf08784f35614e6940ba4eb88163498f5/checkmark-purple-2013.png"  ) ;
+}			
 
 #hightlights-table{	
 	border-collapse: collapse;
@@ -513,6 +378,187 @@ MEDIA QUERIES
 	background-color: #003B64;
 	margin: 0;
 	padding: 0;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+/* for 960px or less */
+
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 96%;
+	}
+	
+	#main_content_header {
+		width: 95%;
+		margin: 0 auto;
+		padding: 5px 15px;
+	}
+	
+	#middle {
+		width: 95%;
+		margin: 0 auto;
+		padding: 5px 15px;
+	}
+	
+	#sidebar {
+		width: 95%;
+		margin: 0 auto;
+		padding: 5px 15px;
+	}					
+}
+
+
+/* for 700px or less */
+
+@media screen and (max-width: 600px) {
+	#main_content_header {
+		width: auto;
+		margin: 0 auto;
+		padding: 5px 5px;
+	}
+	
+	#middle {
+		width: auto;
+		margin: 0 auto;
+		padding: 5px 5px;
+	}
+	
+	#sidebar {
+		width: auto;
+		margin: 0 auto;
+		padding: 5px 5px;
+	}
+	
+	#product-table {
+		width: auto;
+		margin: 0 auto;
+		padding: 5px 1px;
+	}
+	
+	.hightlights-left img {
+		display: block;
+		margin: 0 auto;
+		width: 20px;															    						    
+	}
+	
+	label {
+		font-size: 10;
+	}
+
+	label:before {
+		margin: 0;
+		font-size: 12px;
+	}
+	
+	#gallery_feature_box a{
+		display: flex;
+		align-items: center;
+		width: 40px; 
+		height: 40px; 
+		border:2px solid #ff0000;
+		border-radius:2px;
+		background: #ff0000;
+	}
+
+	#gallery_feature_box img{
+		width: 100%; 
+		height: 100%; 		
+	}
+
+}
+
+
+/* for 480px or less */
+
+@media screen and (max-width: 480px) {
+	#main_content_header {
+		width: auto;
+		margin: 0 auto;
+		padding: 4px 4px;
+	}
+	
+	#middle {
+		width: auto;
+		margin: 0 auto;
+		padding: 4px 4px;
+	}	
+	
+	#sidebar {
+		width: auto;
+		margin: 0 auto;
+		padding: 4px 4px;
+	}
+						
+	h1 {
+		font-size: 1.5em;
+	}
+
+	#features-list li{														
+		font-size: 0.75em;		
+		line-height: 110%;						
+	}	
+	
+	.hightlights-left img {
+		display: block;
+		margin: 0 auto;
+		width: 15px;															    						    
+	}	
+
+	label {
+		font-size: 8;
+	}
+
+	label:before {
+		margin: 0;
+		font-size: 8px;
+	}	
+		
+	#gallery_feature_box a{
+		display: flex;
+		align-items: center;
+		width: 30px; 
+		height: 30px; 
+		border:2px solid #ff0000;
+		border-radius:2px;
+		background: #ff0000;
+	}
+
+	#gallery_feature_box img{
+		width: 100%; 
+		height: 100%; 		
+	}
+}
+
+/* for 400px or less */
+@media screen and (max-width: 400px) {
+	#gallery_box { 
+		padding: 0; 
+	} 
+	
+	.gallery_img { 
+		margin: 0; 
+	}
+	
+	label {
+		padding: 7px;
+	}
+	
+	#gallery_feature_box a{
+		display: flex;
+		align-items: center;
+		width: 20px; 
+		height: 20px; 
+		border:2px solid #ff0000;
+		border-radius:2px;
+	}
+
+	#gallery_feature_box img{
+		width: 100%; 
+		height: 100%; 		
+	}
 }
 
 /************************************************************************************
